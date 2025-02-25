@@ -134,3 +134,63 @@
     margin-top: 45px;
     clip-path: ellipse(50% 50% at 50% 0%);
 }
+
+.eyes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.left_eye,
+.right_eye {
+    display: flex;
+    width: 185px;
+    height: 185px;
+    background-color: #222020;
+    margin-top: 50px;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.left_innerEye,
+.right_innerEye {
+    display: flex;
+    width: 135px;
+    height: 135px;
+    background-color: #8e9194;
+    border-radius: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.left_lens,
+.right_lens {
+    display: flex;
+    width: 90px;
+    height: 90px;
+    background-color: white;
+    border-radius: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.left_iris,
+.right_iris {
+    display: flex;
+    width: 60px;
+    height: 60px;
+    background-color: #91ba58;
+    border-radius: 0 50% 0 50%;
+    transform: rotate(45deg);
+    justify-content: center;
+    align-items: center;
+}
+
+.left_pupil,
+.right_pupil {
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 0 100% 0 100%;
+}
