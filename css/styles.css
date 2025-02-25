@@ -329,3 +329,72 @@
     background-color: #222020;
     border-radius: 100%;
 }
+
+.throwUp {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 85px;
+}
+
+.rainbow {
+    display: flex;
+    justify-content: center;
+}
+
+.color_red {
+    width: 30px;
+    height: 180px;
+    background-color: #f8312f;
+}
+
+.color_orange {
+    width: 30px;
+    height: 200px;
+    background-color: #ff6723;
+}
+
+.color_yellow {
+    width: 30px;
+    height: 170px;
+    background-color: #fcd53f;
+}
+
+.color_green {
+    width: 30px;
+    height: 165px;
+    background-color: #00d26a;
+}
+
+.color_blue {
+    width: 30px;
+    height: 185px;
+    background-color: #0074ba;
+}
+
+.color_purple {
+    width: 30px;
+    height: 170px;
+    background-color: #8d65c5;
+}
+
+.teeth {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.teeth_items {
+    display: grid;
+    grid-template-columns: repeat(10, auto);
+    justify-content: center;
+    margin-bottom: 90px;
+}
+
+.tooth {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-top: 25px solid #222020;
+    border-right: 10px solid transparent;
+}
