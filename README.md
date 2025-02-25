@@ -12,10 +12,10 @@ Para optar a una nota distinta de 0, deben no haber utilizado javascript y deben
 
 ## **Comparativa de imagenes**  
 
-![Dibujo de inspiración](images/inspiracion.jpg)  
-**Figura 1.** Dibujo de inspiración por Alvaro Montoro. Fuente: [Rainbow Cat](https://codepen.io/alvaromontoro/full/MWyrQEX).  
-![Resultado Propio](images/resultado.jpg)  
-**Figura 2.** Resultado propio.  
+![Dibujo de inspiración](/images/inspiracion.png)  
+**Figura 1.** Dibujo de inspiración por Alvaro Montoro. Fuente: [Rainbow Cat](https://codepen.io/alvaromontoro/full/MWyrQEX)  
+![Resultado Propio](/images/resultado.png)  
+**Figura 2.** Resultado propio. Ver en el sitio del curso: [CalicheOficial](https://calicheoficial.lat/231359/Laboratorio-4/index.html)  
 
 ## **Colaboradores**
 
