@@ -29,3 +29,54 @@
     background-color: #222020;
     border-radius: 100%;
 }
+
+.FACE {
+    grid-area: 1 / 1;
+    width: 400px;
+    height: 400px;
+}
+
+.ears {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left_ear {
+    width: 0;
+    height: 0;
+    border-top: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+    border-left: 200px solid #222020;
+}
+
+.right_ear {
+    width: 0;
+    height: 0;
+    border-top: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+    border-right: 200px solid #222020;
+}
+
+.innerEars {
+    display: flex;
+    justify-content: center;
+    gap: 165px;
+}
+
+.left_innerEar {
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-left: 100px solid #636365;
+    margin-top: 30px;
+}
+
+.right_innerEar {
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-right: 100px solid #636365;
+    margin-top: 30px;
+}
