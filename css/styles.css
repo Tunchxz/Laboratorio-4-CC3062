@@ -270,3 +270,62 @@
     border-bottom-right-radius: 100px;
     margin-bottom: 45px;
 }
+
+.philtrum {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+}
+
+.philtrum>.philtrum_item {
+    width: 5px;
+    height: 50px;
+    background-color: white;
+    margin-bottom: 130px;
+}
+
+.whiskers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.upper_whiskers {
+    display: flex;
+    width: 80px;
+    height: 15px;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.left_upper_whisker,
+.right_upper_whisker {
+    width: 10px;
+    height: 10px;
+    background-color: #222020;
+    border-radius: 100%;
+}
+
+.lower_whiskers {
+    display: flex;
+    width: 110px;
+    height: 15px;
+    justify-content: space-between;
+}
+
+.whiskers_1,
+.whiskers_2 {
+    display: flex;
+    width: 35px;
+    justify-content: space-between;
+}
+
+.whiskers_1 *,
+.whiskers_2 * {
+    width: 10px;
+    height: 10px;
+    background-color: #222020;
+    border-radius: 100%;
+}
