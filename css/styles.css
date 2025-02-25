@@ -194,3 +194,79 @@
     background-color: black;
     border-radius: 0 100% 0 100%;
 }
+
+.cheeks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.upper_cheeks {
+    display: flex;
+    width: 270px;
+    height: 65px;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.lower_cheeks {
+    display: flex;
+    width: 350px;
+    height: 70px;
+    justify-content: space-between;
+}
+
+.left_upper_cheek,
+.right_upper_cheek {
+    width: 60px;
+    height: 30px;
+    background-color: #636365;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    margin-top: 30px;
+}
+
+.left_lower_cheek {
+    width: 0;
+    height: 0;
+    border-right: 45px solid transparent;
+    border-top: 45px solid #8e9194;
+    border-top-left-radius: 60%;
+    margin-top: 25px;
+    margin-left: 30px;
+}
+
+.right_lower_cheek {
+    width: 0;
+    height: 0;
+    border-left: 45px solid transparent;
+    border-top: 45px solid #8e9194;
+    border-top-right-radius: 60%;
+    margin-top: 25px;
+    margin-right: 30px;
+}
+
+.mouth {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cupidsBow {
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-bottom: 20px solid white;
+    border-right: 15px solid transparent;
+}
+
+.mouth_item {
+    width: 250px;
+    height: 80px;
+    background-color: white;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    margin-bottom: 45px;
+}
